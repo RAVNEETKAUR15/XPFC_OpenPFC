@@ -1,0 +1,2 @@
+/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/bin/ar qc libCatch2Main.a CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o
+/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/bin/ranlib libCatch2Main.a

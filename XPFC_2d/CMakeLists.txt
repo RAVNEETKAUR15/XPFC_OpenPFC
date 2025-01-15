@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.15)
+project(tungsten_thermal)
+find_package(OpenPFC REQUIRED PATHS /projappl/project_2003810/openpfc/dev)
+add_executable(XPFC_2d_executable XPFC_2d.cpp)
+target_link_libraries(XPFC_2d_executable OpenPFC)

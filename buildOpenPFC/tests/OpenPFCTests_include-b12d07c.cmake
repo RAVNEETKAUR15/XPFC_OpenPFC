@@ -1,0 +1,5 @@
+if(EXISTS "/home/rk015/dev/buildOpenPFC/tests/OpenPFCTests_tests-b12d07c.cmake")
+  include("/home/rk015/dev/buildOpenPFC/tests/OpenPFCTests_tests-b12d07c.cmake")
+else()
+  add_test(OpenPFCTests_NOT_BUILT-b12d07c OpenPFCTests_NOT_BUILT-b12d07c)
+endif()

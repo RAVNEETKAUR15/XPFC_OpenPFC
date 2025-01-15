@@ -1,0 +1,4 @@
+heffte_include = -I/home/rk015/dev/opt/heffte/2.4/include/  -I/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcc12/fftw/3.3.10/include
+heffte_link = -L/home/rk015/dev/opt/heffte/2.4/lib/
+heffte_libs = -lheffte  /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcc12/fftw/3.3.10/lib/libfftw3_omp.so /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcc12/fftw/3.3.10/lib/libfftw3f_omp.so /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcc12/fftw/3.3.10/lib/libfftw3.so /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcc12/fftw/3.3.10/lib/libfftw3f.so OpenMP::OpenMP_CXX
+heffte_fortran_libs =  $(heffte_libs) -lstdc++
